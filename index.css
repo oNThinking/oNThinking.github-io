@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'GmarketSansBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'YUniverse-B';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_yuniverse@1.0/YUniverse-B.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SBAggroM';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroM.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.Box1 {
+    text-decoration: overline;
+    overflow: visible;
+    font-size: 40px;
+    font-family: 'GmarketSansBold';
+    display: inline;
+    position: relative;
+    float: left;
+    top: 10px;
+    left: 20px;
+    width: 25%;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.1)
+}
+#box2 {
+    font-size: 40px;
+    font-family: 'YUniverse-B';
+    display: inline;
+    position: relative;
+    top: 10px;
+    left: 90px;
+    height: 40px;
+    width: 100px;
+    background-color: rgba(255, 255, 255, 0.1)
+}
+.box3 {
+    position: fixed;z-index: 3;
+    top: 5px;
+    left: 800px;
+    width: 100px;
+    height: 100px;
+    overflow: cover;
+}
+.image-box {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#box4 {
+    font-family: 'YUniverse-B';
+    font-size: 20px;
+    position: fixed;
+    top: 85px;
+    left: 820px;
+}
+
+.box5 {
+    position: fixed;z-index: 2;
+    top: 110px;
+    left: 800px;
+    width: 100px;
+    overflow: cover;
+}
+.image-box {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.box6 {
+    position: relative;z-index: 1;
+    top: 100px;
+    left: 0px;
+    overflow: cover;
+}
+.image-box {
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    height: 100%;
+    overflow: cover;
+}
